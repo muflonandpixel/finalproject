@@ -1,0 +1,23 @@
+
+  131  cat > home_animals.txt
+  132  cat > pack_animals.txt
+  133  cat home_animals.txt pack_animals.txt > all_animals.txt
+  134  mv all_animals.txt human_friends.txt
+  135  mkdir animals_directory
+  136  mv human_friends.txt animals_directory/
+  137  sudo apt-get install software-properties-common
+  138  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ focal mysql-apt-config'
+  139  sudo apt-get update
+  140  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B7B3B788A8D3785C
+  141  sudo apt-get update
+  142  sudo apt-get install mysql-server
+  143  sudo apt-get update
+  144  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  145  ls
+  146  sudo bpkg -i google-chrome-stable_current_amd64.deb 
+  147  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+  148  sudo apt --fix-broken install
+  149  dpkg -l google-chrome-stable
+  150  sudo dpkg -r google-chrome-stable_current_amd64.deb 
+  151  sudo dpkg -r google-chrome-stable
+  152  history > terminal_history.txt
